@@ -3,13 +3,13 @@
 Small OCR script to loop through player scores, and output to csv. 
 Update the first to variables to match your needs. This relies on a directory of screenshots for individual players scores and outputs as:
 
-Doesn't always do well with players that have special characters in their name, be sure to double check.
-
 
 ```
 user_id,contribution,ranking,season_points,eden_demolition,eden_feat,occupy_enemy_territory
 black,288923,1,30656,576289,22886732226,586
 ```
+Doesn't always do well with players that have special characters in their name, be sure to double check.
+
 
 Relies on tesseract OCR:
 
